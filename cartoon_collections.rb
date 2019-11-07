@@ -28,5 +28,6 @@ def find_the_cheese(array)
   array.detect{|name|
     if name == "cheddar"
       puts "#{name}"
+    end
   }
 end
