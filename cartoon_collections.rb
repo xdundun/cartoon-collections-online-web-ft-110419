@@ -23,7 +23,7 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.select {|names|
+  array.select {|cheese_types|
     names.is_a?("cheddar")
   }
 end
