@@ -24,7 +24,7 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  array.detect {|name|
+  array.index {|"cheddar"|
     return name if name == cheese_types
     #  puts "#{cheese_types}"
   }
