@@ -15,7 +15,7 @@ def summon_captain_planet(array)
   return elements
 end
 
-def long_planeteer_calls?(array)
+def long_planeteer_calls(array)
   array.any? {|elem|
     elem.size > 4
   }
