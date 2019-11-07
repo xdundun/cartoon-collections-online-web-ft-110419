@@ -26,6 +26,7 @@ def find_the_cheese(array)
 
   #array.include?("cheddar")
   array.detect{|name|
-    name == "cheddar"
+    if name == "cheddar"
+      puts "#{name}"
   }
 end
