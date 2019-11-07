@@ -12,7 +12,6 @@ def summon_captain_planet(array)
     elements[i] = elem.capitalize << "!"
     i += 1
   }
-  puts elements
   return elements
 end
 
