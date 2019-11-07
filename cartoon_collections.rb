@@ -9,7 +9,7 @@ def summon_captain_planet(array)
   elements = []
   i = 0
   array.collect { |elem|
-    elements[i] << elem.capitalize << "!"
+    elements[i] = elem.capitalize << "!"
     i += 1
   }
   puts array
